@@ -52,7 +52,7 @@ const allowedOrigins = [
   'http://localhost:3001',
   // 'https://anjanashreya.com',
   // 'https://www.anjanashreya.com',
-  'https://anjana-portfolio-bhv896y16-anjana-s-projects26.vercel.app/'
+  'https://anjana-portfolio-bhv896y16-anjana-s-projects26.vercel.app'
 ];
 
 app.use(cors({
