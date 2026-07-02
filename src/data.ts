@@ -1,12 +1,4 @@
-import { Internship, Insight, ProcessStep, EducationItem } from "./types";
-import cert1 from "../public/assets/cert 1.png";
-import cert2 from "../public/assets/cert-2.png";
-import cert3 from "../public/assets/cert-3.png";
-import proj1 from "../public/assets/proj1.png";
-import proj2 from "../public/assets/proj2.png";
-import proj3 from "../public/assets/proj3.png";
-import proj4 from "../public/assets/proj4.png";
-import proj5 from "../public/assets/proj5.png";
+import { Internship, EducationItem } from "./types";
 
 export const INTERNSHIPS: Internship[] = [
   {
@@ -56,23 +48,23 @@ export const INTERNSHIPS: Internship[] = [
   }
 ];
 
-export const INSIGHTS: Insight[] = [
-  {
-    id: "ins-workshop",
-    title: "Internshala Web Developer",
-    image: cert1
-  },
-  {
-    id: "ins-future",
-    title: "Aviatrix Multicloud Network",
-    image: cert3
-  },
-  {
-    id: "ins-create",
-    title: "Mathworks Onramp",
-    image: cert2
-  }
-];
+// export const INSIGHTS: Insight[] = [
+//   {
+//     id: "ins-workshop",
+//     title: "Internshala Web Developer",
+//     image: cert1
+//   },
+//   {
+//     id: "ins-future",
+//     title: "Aviatrix Multicloud Network",
+//     image: cert3
+//   },
+//   {
+//     id: "ins-create",
+//     title: "Mathworks Onramp",
+//     image: cert2
+//   }
+// ];
 
 export const SOCIAL_LINKS = [
   { name: "LinkedIn", url: "https://www.linkedin.com/in/ch-s-anjana-shreya-68a74628a" },
@@ -80,52 +72,52 @@ export const SOCIAL_LINKS = [
   { name: "E-Mail", url: "mailto:chitturianjana@gmail.com" }
 ];
 
-export const PROCESS_STEPS: ProcessStep[] = [
-  {
-    id: "proj-blog",
-    num: "01",
-    title: "BlogPage Website",
-    description: "A full-stack publishing and editorial workflow platform where users can submit articles, receive feedback, revise content, and publish through a structured admin moderation system. Features include JWT authentication, review workflows, email notifications, categorized content management, protected admin dashboards, and a fully responsive modern UI.",
-    details: ["React", "TypeScript", "SCSS", "NodeJs", "MongoDB"],
-    image: proj1,
-    liveUrl: "https://legal-writing-blogpage.vercel.app/"
-  },
-  {
-    id: "proj-employee",
-    num: "02",
-    title: "Employee Management and Monitering Portal",
-    description: "Developed an employee monitoring website which aims to provide a centralized platform to small organizations which saves time and provides user friendly approach",
-    details: ["NodeJS", "MongoDB", "ReactJS", "TypeScript", "REST APIs"],
-    image: proj3,
-  },
-  {
-    id: "proj-chatbot",
-    num: "03",
-    title: "Chatbot",
-    description: "Designed and implemented a user friendly chatbot interface with a sleek, responsive layout, enhancing user interaction and engagement.",
-    details: ["React", "JavaScript", "REST APIs"],
-    image: proj2,
-    liveUrl: "https://trustworthy-ai-tawny.vercel.app/"
-  },
-  {
-    id: "proj-personal",
-    num: "04",
-    title: "Personalized Website",
-    description: "Developed a personal website for a professor which showcases the professor's research work and provides information about their academic background. It also includes the couses, course structure and the course materials taught by the professor.",
-    details: ["HTML", "CSS", "JavaScript"],
-    image: proj4,
-    liveUrl: "https://anjanashreya.github.io/Personal-Website/"
-  },
-  {
-    id: "proj-iks",
-    num: "05",
-    title: "Website for Organisation of Researched Information",
-    description: "Developed a centralized website to organize and present all the information collected for the IKS project. The platform ensures structured data management and provides easy accessibility for users to explore resources.",
-    details: ["HTML", "CSS", "JavaScript"],
-    image: proj5,
-    liveUrl: "https://anjanashreya.github.io/webpage-iks/"
-  }
-];
+// export const PROCESS_STEPS: ProcessStep[] = [
+//   {
+//     id: "proj-blog",
+//     num: "01",
+//     title: "BlogPage Website",
+//     description: "A full-stack publishing and editorial workflow platform where users can submit articles, receive feedback, revise content, and publish through a structured admin moderation system. Features include JWT authentication, review workflows, email notifications, categorized content management, protected admin dashboards, and a fully responsive modern UI.",
+//     details: ["React", "TypeScript", "SCSS", "NodeJs", "MongoDB"],
+//     image: proj1,
+//     liveUrl: "https://legal-writing-blogpage.vercel.app/"
+//   },
+//   {
+//     id: "proj-employee",
+//     num: "02",
+//     title: "Employee Management and Monitering Portal",
+//     description: "Developed an employee monitoring website which aims to provide a centralized platform to small organizations which saves time and provides user friendly approach",
+//     details: ["NodeJS", "MongoDB", "ReactJS", "TypeScript", "REST APIs"],
+//     image: proj3,
+//   },
+//   {
+//     id: "proj-chatbot",
+//     num: "03",
+//     title: "Chatbot",
+//     description: "Designed and implemented a user friendly chatbot interface with a sleek, responsive layout, enhancing user interaction and engagement.",
+//     details: ["React", "JavaScript", "REST APIs"],
+//     image: proj2,
+//     liveUrl: "https://trustworthy-ai-tawny.vercel.app/"
+//   },
+//   {
+//     id: "proj-personal",
+//     num: "04",
+//     title: "Personalized Website",
+//     description: "Developed a personal website for a professor which showcases the professor's research work and provides information about their academic background. It also includes the couses, course structure and the course materials taught by the professor.",
+//     details: ["HTML", "CSS", "JavaScript"],
+//     image: proj4,
+//     liveUrl: "https://anjanashreya.github.io/Personal-Website/"
+//   },
+//   {
+//     id: "proj-iks",
+//     num: "05",
+//     title: "Website for Organisation of Researched Information",
+//     description: "Developed a centralized website to organize and present all the information collected for the IKS project. The platform ensures structured data management and provides easy accessibility for users to explore resources.",
+//     details: ["HTML", "CSS", "JavaScript"],
+//     image: proj5,
+//     liveUrl: "https://anjanashreya.github.io/webpage-iks/"
+//   }
+// ];
 
 export const EDUCATION: EducationItem[] = [
   {

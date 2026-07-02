@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import { ArrowDown, Stars } from "lucide-react";
-import resumePdf from "/public/assets/Anjana shreya - Resume.pdf";
 import { API_BASE } from "../config";
 
 export default function Hero() {
@@ -144,7 +143,7 @@ export default function Hero() {
             className="flex flex-wrap items-center justify-center gap-4 pt-2"
           >
             <a
-              href={heroData.hero_resume_url || resumePdf}
+              href={heroData.hero_resume_url}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full border border-white hover:bg-white hover:text-black text-white font-mono text-xs uppercase tracking-widest transition-all duration-300 no-underline"
