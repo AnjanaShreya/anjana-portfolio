@@ -62,7 +62,8 @@ app.use(cors({
     const isLocalhost = origin.startsWith('http://localhost:') || origin.startsWith('http://127.0.0.1:');
     const isAllowed = isLocalhost ||
       allowedOrigins.includes(origin) ||
-      (origin.includes('anjanashreya') && origin.endsWith('.netlify.app'));
+      (origin.includes('anjanashreya') && origin.endsWith('.netlify.app')) ||
+      origin.endsWith('.vercel.app');
 
     if (isAllowed) {
       callback(null, true);
