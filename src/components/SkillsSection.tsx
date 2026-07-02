@@ -345,7 +345,7 @@ export default function SkillsSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="glass-card p-6 md:p-8 pb-14 md:pb-16 rounded-3xl border border-white/5 bg-black/40 backdrop-blur-xl relative overflow-hidden group shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:border-[#ff1493]/20 hover:shadow-[0_0_40px_rgba(255,20,147,0.06)] transition-all duration-500"
+            className="glass-card p-6 md:p-8 rounded-3xl border border-white/5 bg-black/40 backdrop-blur-xl relative overflow-hidden group shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:border-[#ff1493]/20 hover:shadow-[0_0_40px_rgba(255,20,147,0.06)] transition-all duration-500"
           >
             {/* Ambient Glow corner bubble */}
             <div className="absolute -top-12 -left-12 w-48 h-48 rounded-full bg-accent-pink/5 blur-[60px] pointer-events-none" />
@@ -384,7 +384,7 @@ export default function SkillsSection() {
 
             {/* Staggered Skills Content grid */}
             {activeCatData && (
-              <div className="min-h-[140px]">
+              <div>
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={activeCategory}
@@ -424,7 +424,7 @@ export default function SkillsSection() {
             )}
 
             {/* Want to play memory game link */}
-            <div className="absolute bottom-4 right-6 md:bottom-6 md:right-8">
+            <div className="flex justify-end mt-6 md:mt-8">
               <button
                 onClick={() => setIsMemoryOpen(true)}
                 className="font-syne transition-all duration-300 cursor-pointer flex flex-col items-end gap-1 group"
