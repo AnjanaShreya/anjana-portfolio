@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({ command }) => {
   return {
-    base: process.env.NETLIFY === 'true' || process.env.VERCEL === 'true' || command === 'serve' ? '/' : '/anjana-shreya-portfolio/',
+    base: process.env.NETLIFY || process.env.VERCEL || command === 'serve' ? '/' : '/anjana-shreya-portfolio/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
